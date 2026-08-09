@@ -8,7 +8,7 @@ function Hero() {
       className="relative min-h-screen overflow-hidden
       bg-white dark:bg-gray-950
       text-gray-900 dark:text-white
-      transition-colors duration-500"
+      transition-colors duration-500 py-15"
     >
       {/* Mobile + Tablet Background Image */}
       <div
