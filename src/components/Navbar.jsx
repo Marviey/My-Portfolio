@@ -212,7 +212,7 @@ function Navbar({ darkMode, setDarkMode }) {
                 </a>
               </li>
             ))}
-            Theme Toggle
+            {/* Theme Toggle */}
             <li>
               <button
                 onClick={() => setDarkMode(!darkMode)}
