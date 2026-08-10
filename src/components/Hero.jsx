@@ -12,12 +12,12 @@ function Hero() {
     >
       {/* Mobile + Tablet Background Image */}
       <div
-        className="absolute inset-0 lg:hidden bg-cover bg-center grayscale opacity-70 dark:opacity-20"
+        className="absolute inset-0 lg:hidden bg-cover bg-center grayscale opacity-90 dark:opacity-20"
         style={{ backgroundImage: `url(${profileImage})` }}
       />
 
       {/* Mobile + Tablet Overlay */}
-      <div className="absolute inset-0 lg:hidden bg-white/60 dark:bg-black/50" />
+      <div className="absolute inset-0 lg:hidden bg-white/50 dark:bg-black/50" />
 
       {/* Main Content */}
       <div className="relative z-10 max-w-7xl mx-auto min-h-screen grid lg:grid-cols-2 gap-12 items-center px-6 py-24 lg:py-0">
