@@ -212,8 +212,7 @@ function Navbar({ darkMode, setDarkMode }) {
                 </a>
               </li>
             ))}
-
-            {/* Theme Toggle */}
+            Theme Toggle
             <li>
               <button
                 onClick={() => setDarkMode(!darkMode)}
@@ -224,17 +223,14 @@ function Navbar({ darkMode, setDarkMode }) {
                 {darkMode ? (
                   <>
                     <FaSun className="text-yellow-400" />
-                    Light Mode
                   </>
                 ) : (
                   <>
                     <FaMoon />
-                    Dark Mode
                   </>
                 )}
               </button>
             </li>
-
             {/* Resume */}
             <li>
               <a

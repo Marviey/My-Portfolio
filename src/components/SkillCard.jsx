@@ -12,7 +12,7 @@ function SkillCard({ title, tech, index }) {
       viewport={{ once: true }}
       className="
         h-full
-        min-h-[300px]
+        min-h-75
         bg-white dark:bg-gray-900
         border border-gray-200 dark:border-gray-800
         rounded-3xl

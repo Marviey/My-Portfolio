@@ -8,11 +8,11 @@ function Hero() {
       className="relative min-h-screen overflow-hidden
       bg-white dark:bg-gray-950
       text-gray-900 dark:text-white
-      transition-colors duration-500 py-15"
+      transition-colors duration-500 lg:py-20"
     >
       {/* Mobile + Tablet Background Image */}
       <div
-        className="absolute inset-0 lg:hidden bg-cover bg-center grayscale opacity-20 dark:opacity-25"
+        className="absolute inset-0 lg:hidden bg-cover bg-center grayscale opacity-70 dark:opacity-20"
         style={{ backgroundImage: `url(${profileImage})` }}
       />
 

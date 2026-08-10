@@ -38,7 +38,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 dark:bg-gray-950 dark:text-white transition-colors duration-500">
+    <div className="min-h-screen bg-white text-gray-900 dark:bg-gray-950 dark:text-white transition-colors duration-500 overflow-hidden">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
       <Hero />
