@@ -125,7 +125,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
           {/* LinkedIn */}
           <a
-            href="YOUR_LINKEDIN_URL"
+            href="www.linkedin.com/in/marvellous-okoro-2218992a0"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"

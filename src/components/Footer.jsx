@@ -35,20 +35,20 @@ function Footer() {
             </a>
 
             <a
-              href="#"
+              href="www.linkedin.com/in/marvellous-okoro-2218992a0"
               aria-label="LinkedIn"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition"
             >
               <FaLinkedin />
             </a>
 
-            <a
+            {/* <a
               href="#"
               aria-label="Instagram"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition"
             >
               <FaInstagram />
-            </a>
+            </a> */}
           </div>
         </div>
 

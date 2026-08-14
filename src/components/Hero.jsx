@@ -12,7 +12,7 @@ function Hero() {
     >
       {/* Mobile + Tablet Background Image */}
       <div
-        className="absolute inset-0 lg:hidden bg-cover bg-center grayscale opacity-90 dark:opacity-20"
+        className="absolute inset-0 lg:hidden bg-cover bg-center grayscale opacity-90 dark:opacity-70"
         style={{ backgroundImage: `url(${profileImage})` }}
       />
 
